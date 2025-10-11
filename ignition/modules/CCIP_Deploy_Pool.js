@@ -1,6 +1,6 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-
+const TokenAddress_hedera = "0x6E08a948F54f82aC8B3484348B80D2dA2E9e20c1";
 const TokenAddress_sepolia = "0x50EE5f5E0DECFf705682DF6a418805b48da32A2a";
 const localTokenDecimals = 6;
 const rmnProxy_hedera = "0x0Df355104424BABfb2404600A4258CfE140a78Cf";
@@ -15,11 +15,11 @@ export default buildModule("CCIP_Deploy_Pool", (m) => {
 const token = m.contractAt("BurnMintERC20", TokenAddress_sepolia);
 
  const deployCCIPToken = m.contract("BurnMintTokenPool", [
-    TokenAddress_sepolia,
+    TokenAddress_hedera,
     localTokenDecimals,
     [],
-    rmnProxy_sepolia,
-    router_sepolia,
+    rmnProxy_hedera,
+    router_hedera,
   ]);
 
   return { deployCCIPToken };

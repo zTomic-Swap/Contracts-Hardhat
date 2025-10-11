@@ -51,8 +51,8 @@ const config: HardhatUserConfig = {
     hederaTestnet: {
       type: "http",
       chainType: "l1",
-      url: configVariable("HEDERA_TESTNET_RPC_URL"),
-      accounts: [configVariable("HEDERA_TESTNET_PRIVATE_KEY")],
+      url: "https://testnet.hashio.io/api",
+      accounts: ["0xfb9bbe44182c19ddfc3a8ad89dfc86b9e4e18c91d40256af949fc6ffbef78b8a"],
   },
 
 },
