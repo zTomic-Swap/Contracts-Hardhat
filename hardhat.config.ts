@@ -45,14 +45,14 @@ const config: HardhatUserConfig = {
     sepolia: {
       type: "http",
       chainType: "l1",
-      url: "https://sepolia.infura.io/v3/0a17be4969ed49c295ead2b7a3e0adfe",
+      url: "",
       accounts: [configVariable("SEPOLIA_PRIVATE_KEY")],
     },
     hederaTestnet: {
       type: "http",
       chainType: "l1",
       url: "https://testnet.hashio.io/api",
-      accounts: ["0xfb9bbe44182c19ddfc3a8ad89dfc86b9e4e18c91d40256af949fc6ffbef78b8a"],
+      accounts: [""],
   },
 
 },
