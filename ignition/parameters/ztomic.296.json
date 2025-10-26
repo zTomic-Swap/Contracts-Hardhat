@@ -1,0 +1,10 @@
+{
+  "ZtomicModule": {
+    "depth": 20,
+    "stableOne": "0xTODO_STABLE_ONE_HEDERA_TESTNET",
+    "stableTwo": "0xTODO_STABLE_TWO_HEDERA_TESTNET",
+    "ccipRouter": "0xTODO_CCIP_ROUTER_HEDERA_TESTNET",
+    "linkToken": "0xTODO_LINK_TOKEN_HEDERA_TESTNET",
+    "destinationChainSelector": "TODO_HEDERA_TESTNET_SELECTOR"
+  }
+}

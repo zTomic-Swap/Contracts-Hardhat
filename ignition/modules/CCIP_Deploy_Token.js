@@ -1,16 +1,13 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-    const NAME = "Ztomic USDC"
-    const SYMBOL = "ZUSDC"
-   const DECIMALS = 6
-   const MAX_SUPPLY = 1000000000000000
-   const PRE_MINT = 1000000000
-   const VERIFY_CONTRACT = true
-
-
 export default buildModule("CCIP_Deploy_Token", (m) => {
+  const NAME = m.getParameter("name", "Ztomic USDC");
+  const SYMBOL = m.getParameter("symbol", "ZUSDC");
+  const DECIMALS = m.getParameter("decimals", 6);
+  const MAX_SUPPLY = m.getParameter("maxSupply", 1000000000000000n);
+  const PRE_MINT = m.getParameter("preMint", 1000000000n);
 
- const deployCCIPToken = m.contract("BurnMintERC20", [
+  const deployCCIPToken = m.contract("BurnMintERC20", [
     NAME,
     SYMBOL,
     DECIMALS,
@@ -19,5 +16,4 @@ export default buildModule("CCIP_Deploy_Token", (m) => {
   ]);
 
   return { deployCCIPToken };
-
 })

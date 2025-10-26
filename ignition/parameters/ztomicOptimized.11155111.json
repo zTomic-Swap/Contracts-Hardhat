@@ -1,0 +1,10 @@
+{
+  "ZtomicOptimizedModule": {
+    "depth": 20,
+    "stableOne": "0xTODO_STABLE_ONE_SEPOLIA",
+    "stableTwo": "0xTODO_STABLE_TWO_SEPOLIA",
+    "ccipRouter": "0xTODO_CCIP_ROUTER_SEPOLIA",
+    "linkToken": "0xTODO_LINK_TOKEN_SEPOLIA",
+    "destinationChainSelector": "16015286601757825753"
+  }
+}

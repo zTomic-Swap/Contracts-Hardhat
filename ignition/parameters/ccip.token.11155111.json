@@ -1,0 +1,9 @@
+{
+  "CCIP_Deploy_Token": {
+    "name": "Ztomic USDC",
+    "symbol": "ZUSDC",
+    "decimals": 6,
+    "maxSupply": "1000000000000000",
+    "preMint": "1000000000"
+  }
+}

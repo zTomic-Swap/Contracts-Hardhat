@@ -1,0 +1,8 @@
+{
+  "CCIP_Deploy_Pool": {
+    "remoteToken": "0xTODO_REMOTE_TOKEN_ON_REMOTE_CHAIN",
+    "localTokenDecimals": 6,
+    "rmnProxy": "0xTODO_RMN_PROXY_HEDERA_TESTNET",
+    "router": "0xTODO_ROUTER_HEDERA_TESTNET"
+  }
+}
